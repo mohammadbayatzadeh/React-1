@@ -1,0 +1,44 @@
+.card {
+  margin: 20px 0;
+  width: 23%;
+  background-color: rgb(176, 196, 222);
+  border-radius: 30px;
+  overflow: hidden;
+}
+.card img {
+  width: 100%;
+}
+.name {
+  font-size: 2rem;
+  padding: 10px 20px;
+  font-weight: 700;
+  color: #fff;
+}
+.price {
+  font-size: 1.5rem;
+  margin: 20px;
+  padding: 5px 10px;
+  color: #fff;
+  background-color: limegreen;
+  width: fit-content;
+  border-radius: 5px;
+}
+.counter {
+  display: flex;
+  align-items: center;
+  border-top: 1px solid #30c0e4;
+}
+.counter img {
+  width: 20px;
+  margin: 20px;
+  cursor: pointer;
+}
+.counter span{
+  padding: 5px;
+  background-color: #30c0e4;
+  color: white;
+  border-radius: 5px;
+}
+.deactive{
+  opacity: 0.3;
+}

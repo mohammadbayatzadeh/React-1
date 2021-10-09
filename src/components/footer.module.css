@@ -1,0 +1,13 @@
+.footer{
+  background-color: rgb(176, 196, 222);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-top: solid #30c0e4 3px;
+}
+.footer h3{
+    color: #fff;
+    font-size: 2rem;
+    font-weight: 500;
+    padding: 30px;
+}

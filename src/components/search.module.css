@@ -1,0 +1,31 @@
+.searchbox {
+  background-color: rgb(176, 196, 222);
+  box-shadow: inset 0px -700px 500px -500px #fff;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 80px 50px;
+  border-bottom: solid #30c0e4 3px;
+}
+.searchbox h1 {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #30c0e4;
+}
+.searchbox input {
+  border: solid 1px #30c0e4;
+  width: 300px;
+  height: 40px;
+  padding: 20px;
+  border-radius: 10px;
+  font-size: 1.5rem;
+  color: #30c0e4;
+  font-weight: bold;
+  opacity: 1;
+}
+.searchbox input::placeholder {
+  font-size: 1.5rem;
+  color: #30c0e4;
+  font-weight: bold;
+  opacity: 1;
+}
