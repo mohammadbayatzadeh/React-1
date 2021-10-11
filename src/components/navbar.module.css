@@ -19,7 +19,11 @@ header {
     font-weight: 500;
     transition: all .3s ease-in;
 }
-.list li:hover{
+.list li a {
+    color: #fff;
+    text-decoration: none;
+}
+.list li a:hover{
     color:#30c0e4;
 }
 header img{

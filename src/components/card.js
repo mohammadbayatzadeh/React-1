@@ -32,7 +32,7 @@ class card extends Component {
       <div className={styles.card}>
         <img src={image} alt={alt} />
         <div className={styles.name}>{name}</div>
-        <div className={styles.price}>{price}$ {count ? ` * ${count} = ${price*count}$` : ""}</div>
+        <div className={styles.price}>{price}$ {count ? ` * ${count} = ${price * count}$` : ""}</div>
         <div className={styles.counter}>
           <img src={down} className={!count ? styles.deactive : ""} alt="down" onClick={this.counterdown} />
           <span>{count}</span>

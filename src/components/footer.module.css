@@ -3,11 +3,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  border-top: solid #30c0e4 3px;
+  border-top: solid #30c0e4 1px;
 }
 .footer h3{
     color: #fff;
-    font-size: 2rem;
+    font-size: 1.5rem;
     font-weight: 500;
-    padding: 30px;
+    padding: 20px;
 }
